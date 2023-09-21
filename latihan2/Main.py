@@ -1,77 +1,20 @@
-# Operator Komparasi menghasilkan true dan false
-a = 4
-b = 2
-# lebih dari (>)
-print("=====lebih dari (>)======")
-hasil = a > b
-print(a , '>', b , '=', hasil)
-hasil = b > a
-print(b , '>', a , '=', hasil)
-hasil = b > 2
-print(b , '>', 2 , '=', hasil)
+# Membuat Program Konversi suhu
 
-# kurang dari (>)
-print("=====kurang dari (<)======")
-hasil = a < b
-print(a , '<', b , '=', hasil)
-hasil = b < a
-print(b , '<', a , '=', hasil)
-hasil = b < 2
-print(b , '<', 2 , '=', hasil)
+celcius = float(input("Masukkan suhu celcius : "))
+print("suhu yang anda masukkan adalah ", celcius, "celcius")
 
-# lebih dari sama dengan (>.)
-print("=====lebih dari sama dengan(>=)======")
-hasil = a >= b
-print(a , '>=', b , '=', hasil)
-hasil = b >= a
-print(b , '>=', a , '=', hasil)
-hasil = b >= 2
-print(b , '>=', 2 , '=', hasil)
 
-# kurang dari sama dengan (>.)
-print("=====kurang dari sama dengan(<=)======")
-hasil = a <= b
-print(a , '<=', b , '=', hasil)
-hasil = b <= a
-print(b , '<=', a , '=', hasil)
-hasil = b <= 2
-print(b , '<=', 2 , '=', hasil)
+# reamur
+reamur = (4/5)*celcius
+print("suhu dalam reamur adalah : ",reamur)
 
-# sama dengan (==)
-print("===== sama dengan(==)======")
-hasil = a == b
-print(a , '==', b , '=', hasil)
-hasil = b == 2
-print(b , '==', 2 , '=', hasil)
+# fahrenheit
+fahrenheit = ((9/5)* celcius) + 32
+print("suhu dalam fahrenheit adalah : ",fahrenheit)
 
-# tidak sama dengan (!=)
-print("===== tidak sama dengan(!=)======")
-hasil = a != b
-print(a , '!=', b , '=', hasil)
-hasil = b != 2
-print(b , '!=', 2 , '=', hasil)
+# kelvin
+kelvin = celcius + 273
+print("suhu dalam kelvin adalah : ",kelvin)
 
-# operator "is" untuk komparasi object identity
-print("===== object identity(is)======")
-x = 5
-y = 5
-
-hasil = x is y
-print(x , 'is', y, '=', hasil)
-
-x = 5
-y = 7
-hasil = x is y
-print(x , 'is', y, '=', hasil)
-
-print("===== object identity(is not)======")
-x = 5
-y = 5
-
-hasil = x is not y
-print(x , 'is', y, '=', hasil)
-
-x = 5
-y = 7
-hasil = x is not y
-print(x , 'is', y, '=', hasil)
+#fahrenheti ke kelvin
+#kelvin ke fahrenheit

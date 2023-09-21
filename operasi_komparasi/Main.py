@@ -1,27 +1,77 @@
-#tipe data Angka
-#integer
-data_int = 55
-print("data ", data_int, "Bertipe data ", type(data_int))
+# Operator Komparasi menghasilkan true dan false
+a = 4
+b = 2
+# lebih dari (>)
+print("=====lebih dari (>)======")
+hasil = a > b
+print(a , '>', b , '=', hasil)
+hasil = b > a
+print(b , '>', a , '=', hasil)
+hasil = b > 2
+print(b , '>', 2 , '=', hasil)
 
-#float
-data_float = 3.14
-print("data ", data_float, "Bertipe data ", type(data_float))
+# kurang dari (>)
+print("=====kurang dari (<)======")
+hasil = a < b
+print(a , '<', b , '=', hasil)
+hasil = b < a
+print(b , '<', a , '=', hasil)
+hasil = b < 2
+print(b , '<', 2 , '=', hasil)
 
-#Tipe data huruf/karakter
-#string
-data_string = "Hello world"
-print("data ", data_string, "Bertipe data ", type(data_string))
+# lebih dari sama dengan (>.)
+print("=====lebih dari sama dengan(>=)======")
+hasil = a >= b
+print(a , '>=', b , '=', hasil)
+hasil = b >= a
+print(b , '>=', a , '=', hasil)
+hasil = b >= 2
+print(b , '>=', 2 , '=', hasil)
 
-#tipe data boolean
-data_bool = True
-print("data ", data_bool, "Bertipe data ", type(data_bool))
+# kurang dari sama dengan (>.)
+print("=====kurang dari sama dengan(<=)======")
+hasil = a <= b
+print(a , '<=', b , '=', hasil)
+hasil = b <= a
+print(b , '<=', a , '=', hasil)
+hasil = b <= 2
+print(b , '<=', 2 , '=', hasil)
 
-#tipedata complex
-data_complex = complex(4,5)
-print("data ", data_complex, "Bertipe data ", type(data_complex))
+# sama dengan (==)
+print("===== sama dengan(==)======")
+hasil = a == b
+print(a , '==', b , '=', hasil)
+hasil = b == 2
+print(b , '==', 2 , '=', hasil)
 
-#tipe data dari bahasa C
-#import package
-from ctypes import c_double
-data_c_double = c_double(10.5)
-print("data ", data_c_double, "Bertipe data ", type(data_c_double))
+# tidak sama dengan (!=)
+print("===== tidak sama dengan(!=)======")
+hasil = a != b
+print(a , '!=', b , '=', hasil)
+hasil = b != 2
+print(b , '!=', 2 , '=', hasil)
+
+# operator "is" untuk komparasi object identity
+print("===== object identity(is)======")
+x = 5
+y = 5
+
+hasil = x is y
+print(x , 'is', y, '=', hasil)
+
+x = 5
+y = 7
+hasil = x is y
+print(x , 'is', y, '=', hasil)
+
+print("===== object identity(is not)======")
+x = 5
+y = 5
+
+hasil = x is not y
+print(x , 'is', y, '=', hasil)
+
+x = 5
+y = 7
+hasil = x is not y
+print(x , 'is', y, '=', hasil)
