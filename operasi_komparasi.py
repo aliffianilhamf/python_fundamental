@@ -57,6 +57,16 @@ print(a ,' <= ', 6,' = ', kurang_dari_sama_dengan)
 kurang_dari_sama_dengan = a <= 5
 print(a ,' <= ', 5,' = ', kurang_dari_sama_dengan)
 
+# tidak sama dengan (!=)
+print('========tidak sama dengan (!=)')
+tidak_sama_dengan = a != b
+print(a ,' != ', b,' = ', tidak_sama_dengan)
+tidak_sama_dengan = a != 6
+print(a ,' != ', 6,' = ', tidak_sama_dengan)
+tidak_sama_dengan = a != 5
+print(a ,' != ', 5,' = ', tidak_sama_dengan)
+
+
 
 # object identity (is)
 print('========object identity (is)')
