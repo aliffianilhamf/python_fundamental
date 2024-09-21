@@ -49,7 +49,7 @@ print(20*'=','>>')
 print('nilai : ', c, ', binary : ', format(c , '08b'))
 
 # SHIFT LEFT (<<)
-c = a << 2
+c = a << 2 
 print(10*'=','SHIFT LEFT',10*'=')
 print('nilai : ', a, ', binary : ', format(a, '08b'))
 print(20*'=','<<')
