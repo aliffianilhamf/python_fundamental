@@ -45,12 +45,22 @@ while True :
         print((kolom)*' ',count*'+')
         kolom -= 1
         count +=1
-    else : 
-       
+    else :       
         count += 1
         continue
 
     if count > baris : 
+        while True : 
+            if (count) % 2 :
+                print((kolom + 1)*' ',(count)*'+')
+                kolom += 1
+                count -=1
+            else : 
+                count -= 1
+                continue
+            
+            if count < 1 : 
+                break
         break
     
     
