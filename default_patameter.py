@@ -28,3 +28,5 @@ def sum_all(angka_1 = 4, angka_2 = 2, angka_3 = 4, angka_4 = 5):
 hasil = sum_all(angka_2=10)
 print(hasil)
 hasil = sum_all()
+
+## contoh 5
